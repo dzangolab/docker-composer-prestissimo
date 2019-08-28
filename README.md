@@ -1,9 +1,9 @@
-# Docker composer with prestissimo package
+# @dzangolab/docker-composer-prestissimo
 
-## Introduction
-The package provides the latest composer docker image with prestissimo package pre-installed which is useful for downloading the composer dependencies parallelly.
+A docker image containing `composer` with the [Hirak presitissimo plugin](https://packagist.org/packages/hirak/prestissimo) preinstalled. The prestissimo plugin allows parallel instllation of composer dependencies.
 
-## Image and package used
-Composer image from: [Composer official repository](https://hub.docker.com/_/composer)
+## Dependencies
 
-Prestissimo package from: [Hirak presitissimo package](https://packagist.org/packages/hirak/prestissimo)
+Composer image: [Composer official repository](https://hub.docker.com/_/composer)
+
+Prestissimo plugin: [Hirak presitissimo package](https://packagist.org/packages/hirak/prestissimo)
