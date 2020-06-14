@@ -1,4 +1,4 @@
-FROM composer:1.9
+FROM composer:1.10.7
 
 MAINTAINER Olivier Pichon <op@dzangolab.com>
 
